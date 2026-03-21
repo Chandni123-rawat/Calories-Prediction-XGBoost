@@ -1,25 +1,35 @@
-Predicts the number of calories burned during exercise based on user features like Gender, Age, Height, Weight, Duration, Heart Rate, and Body Temperature using XGBoost. This project demonstrates real-world machine learning application for fitness and health analytics.
+Calorie Prediction using Machine Learning
 
-Source: Exercise and Calories dataset
-Features:
-Gender (1 = Male, 0 = Female)
-Age
-Height (cm)
-Weight (kg)
-Duration of exercise (minutes)
-Heart Rate (bpm)
-Body Temperature (°C)
-Target: Calories burned
+Overview
+This project predicts the number of calories burned based on user data using a Machine Learning model.
 
-Why XGBoost?
-->Handles tabular data efficiently
-->Captures non-linear relationships
-->High accuracy and widely used in ML competitions
+Features
+- Data preprocessing and cleaning
+- Feature selection
+- Data visualization
+- Machine Learning model:
+  - Random Forest
 
- Features
-Predict calories for new user input
-Feature importance visualization using Matplotlib
+Tech Stack
+- Python
+- NumPy, Pandas
+- Matplotlib, Seaborn
+- scikit-learn
+- Google Colab / Jupyter Notebook
 
-Evaluate model performance with metrics like RMSE or R²
+Workflow
+1. Data Collection
+2. Data Preprocessing
+3. Feature Selection
+4. Model Training
+5. Model Evaluation
 
-Easy-to-use Jupyter Notebook
+Results
+- Model predicts calorie burn based on input features
+- Achieved good accuracy on test data (you can add actual value if you know)
+
+How to Run
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
